@@ -21,7 +21,7 @@ def sniff_Packet(pkt):
         if Raw in pkt :
             try:
                 data = pkt[Raw].load.decode(errors = "ignore")
-                print(f"  Payload: {data}")
+                print(f"  Payload: {data[:300]}")
             except Exception as e:
                 print(f"Couldnt decode data/Payload: {e}")
 
