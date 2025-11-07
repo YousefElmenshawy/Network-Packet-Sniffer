@@ -1,10 +1,8 @@
-# Packet Sniffer – CodeAlpha Internship Project
+# Packet Sniffer 
 
 ## 📌 Overview
 This project is a simple **Network Packet Sniffer** implemented in Python using the [Scapy](https://scapy.net/) library.  
 It captures live packets on the network interface, extracts useful information (IP addresses, protocols, ports), and attempts to display the payload in a human-readable form.
-
-This was developed as part of the **CodeAlpha Cybersecurity Internship**.
 
 ---
 
